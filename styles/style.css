@@ -1,0 +1,52 @@
+@font-face {
+    font-family: lato;
+    src: url("../fonts/LatoLig.ttf"), url("../fonts/LatoLig.woff"), url("../fonts/LatoLig.eof");
+}
+
+body {
+  background-image : url("../fotos/wallpaper.jpeg");
+  background-repeat : repeat;
+  background-attachment : fixed;
+  background-size : cover
+
+ 
+}
+
+div{
+ margin-left : auto;
+ margin-right : auto;
+ text-align : center;
+}
+
+p {
+	color : white;
+	font-family: lato;
+}
+
+h3 {
+	color:white;
+}
+
+#Foto {
+ height : 20%;
+ width : 20%;
+ min-height : 100px;
+ min-width : 180px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block
+}
+
+h1 {
+ background-color: lightgrey
+}
+
+img {
+	min-height: 100px;
+	min-width: 100px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 200px;
+	max-height: 200px;
+}
